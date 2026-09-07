@@ -1,0 +1,22 @@
+import type { CapacitorConfig } from '@capacitor/cli';
+
+const config: CapacitorConfig = {
+  appId: 'com.hasebo.pos',
+  appName: 'حاسبو | HĀSEBO',
+  webDir: 'dist',
+  bundledWebRuntime: false,
+  android: {
+    backgroundColor: '#07111F',
+  },
+  plugins: {
+    SplashScreen: {
+      launchShowDuration: 0,
+      launchAutoHide: true,
+      backgroundColor: '#07111F',
+      androidScaleType: 'CENTER_CROP',
+      showSpinner: false,
+    },
+  },
+};
+
+export default config;

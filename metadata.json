@@ -1,0 +1,6 @@
+{
+  "name": "حاسبو | HĀSEBO - أدر تجارتك بذكاء",
+  "description": "منظومة حاسبو الذكية للمحاسبة ونقاط البيع وإدارة التجارة والمخزون والفواتير - أدر تجارتك بذكاء | MANAGE YOUR BUSINESS SMARTER",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

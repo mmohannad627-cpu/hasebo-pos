@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 520" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCE182" />
+      <stop offset="30%" stop-color="#E2B743" />
+      <stop offset="70%" stop-color="#CA9722" />
+      <stop offset="100%" stop-color="#F3CE5A" />
+    </linearGradient>
+  </defs>
+
+  <g id="hasebo-emblem" transform="translate(150, 20)">
+    <!-- White Receipt -->
+    <path d="M 68 28 C 68 20, 88 18, 108 18 C 128 18, 148 20, 148 28 L 148 132 L 143 126 L 138 132 L 133 126 L 128 132 L 123 126 L 118 132 L 113 126 L 108 132 L 103 126 L 98 132 L 93 126 L 88 132 L 83 126 L 78 132 L 73 126 L 68 132 Z" fill="#FFFFFF" />
+    <path d="M 68 28 C 68 20, 88 18, 108 18 C 128 18, 148 20, 148 28 C 148 35, 128 32, 108 32 C 88 32, 68 35, 68 28 Z" fill="#E2E8F0" />
+    <rect x="82" y="44" width="50" height="5" rx="2.5" fill="#0B1424" />
+    <rect x="82" y="55" width="34" height="4.5" rx="2.25" fill="#0B1424" />
+    <path d="M 112 92 L 122 103 L 142 75" fill="none" stroke="#0B1424" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Golden "ح" -->
+    <path d="M 52 38 C 52 30, 58 26, 66 26 C 74 26, 82 30, 82 38 L 82 48 C 82 52, 79 56, 75 58 L 56 68 C 46 73, 40 84, 40 96 L 40 120 C 40 148, 62 168, 98 168 C 134 168, 162 154, 168 142 C 171 137, 166 131, 160 132 C 154 133, 130 148, 98 148 C 72 148, 58 136, 58 116 L 58 98 C 58 92, 64 88, 70 90 L 132 90 C 142 90, 148 97, 146 106 C 144 113, 136 116, 128 114 L 88 114 C 82 114, 78 109, 78 104 C 78 99, 82 96, 88 96 L 126 96 C 130 96, 132 98, 132 101 C 132 103, 129 105, 124 105 L 72 105 C 60 105, 52 97, 52 86 Z" fill="url(#goldDark)" />
+    <rect x="58" y="132" width="7" height="15" rx="3.5" fill="url(#goldDark)" />
+    <rect x="68" y="122" width="7.5" height="25" rx="3.75" fill="url(#goldDark)" />
+    <rect x="79.5" y="108" width="8" height="39" rx="4" fill="url(#goldDark)" />
+  </g>
+
+  <g id="hasebo-typography" text-anchor="middle">
+    <text x="250" y="300" fill="#FFFFFF" font-family="'Cairo', sans-serif" font-size="82" font-weight="900" letter-spacing="0.05em">حاسبو</text>
+    <circle cx="218" cy="326" r="6.5" fill="url(#goldDark)" />
+    <text x="250" y="370" fill="url(#goldDark)" font-family="'Montserrat', sans-serif" font-size="28" font-weight="800" letter-spacing="0.45em">H Ā S E B O</text>
+    
+    <line x1="80" y1="412" x2="165" y2="412" stroke="url(#goldDark)" stroke-width="1.5" opacity="0.8" />
+    <line x1="335" y1="412" x2="420" y2="412" stroke="url(#goldDark)" stroke-width="1.5" opacity="0.8" />
+    
+    <text x="250" y="418" fill="#FFFFFF" font-family="'Cairo', sans-serif" font-size="21" font-weight="700">أدر تجارتك بذكاء</text>
+    <text x="250" y="458" fill="#94A3B8" font-family="'Montserrat', sans-serif" font-size="12" font-weight="700" letter-spacing="0.22em">MANAGE YOUR BUSINESS SMARTER</text>
+  </g>
+</svg>

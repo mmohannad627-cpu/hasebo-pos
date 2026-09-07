@@ -1,0 +1,75 @@
+{
+  "name": "حاسبو - نظام نقاط البيع والمحاسبة الذكي",
+  "short_name": "حاسبو",
+  "description": "منظومة حاسبو الذكية لإدارة المبيعات ونقاط البيع السريعة والمحاسبة والمخزون والفواتير وإدارة البقالات والتجارة",
+  "id": "/",
+  "start_url": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "fullscreen", "window-controls-overlay"],
+  "orientation": "any",
+  "background_color": "#0F172A",
+  "theme_color": "#10B981",
+  "scope": "/",
+  "lang": "ar",
+  "dir": "rtl",
+  "categories": ["business", "finance", "productivity", "shopping", "utilities"],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "لوحة التحكم والكاشير السريع لنظام حاسبو"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "واجهة الجوال ونقاط البيع حاسبو"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "نقطة البيع والكاشير",
+      "short_name": "الكاشير",
+      "description": "فتح شاشة الكاشير والمبيعات السريعة",
+      "url": "/?tab=pos",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "المخزن والمنتجات",
+      "short_name": "المخزن",
+      "description": "إدارة المنتجات والمخزون والباركود",
+      "url": "/?tab=inventory",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
